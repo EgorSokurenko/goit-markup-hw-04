@@ -163,6 +163,7 @@ header .container {
   display: flex;
   background-image: url(../img/fon.jpg), url(../img/bg.jpg);
   background-size: contain;
+  background-repeat: no-repeat;
   max-width: 1600px;
   margin: 0 auto;
 }
