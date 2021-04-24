@@ -71,7 +71,7 @@ nav {
 
 .header {
   padding: 24px 0px 25px 0px;
-  /* border-bottom: 1px solid #ececec; */
+  border-bottom: 1px solid #ececec;
 }
 header .container {
   display: flex;
