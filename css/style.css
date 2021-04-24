@@ -221,6 +221,38 @@ header .container {
 .about-list-item {
   width: 270px;
 }
+.about-list-item::before {
+  content: "";
+  display: inline-block;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+.icon-det::before {
+  background-image: url(../img/icons/antenna.svg);
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-time::before {
+  background-image: url(../img/icons/clock.svg);
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-plan::before {
+  background-image: url(../img/icons/diagram.svg);
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-tech::before {
+  background-image: url(../img/icons/astronaut.svg);
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .about-icon-item {
   display: inline-flex;
   justify-content: center;
