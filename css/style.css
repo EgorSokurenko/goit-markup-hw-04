@@ -354,10 +354,10 @@ header .container {
   align-items: center;
   justify-content: center;
 }
-.link-sn:hover {
+.link-sn:hover,.link-sn:focus {
   background-color: var(--link-color-hov);
 }
-.link-sn:hover .icon-sn {
+.link-sn:hover .icon-sn,.link-sn:focus.icon-sn {
   fill: white;
 }
 .icon-sn {
@@ -386,7 +386,7 @@ header .container {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-.client-link:hover {
+.client-link:hover, .client-link:focus {
   fill: var(--link-color-hov);
   border-color: var(--link-color-hov);
 }
