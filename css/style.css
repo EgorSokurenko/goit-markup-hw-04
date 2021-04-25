@@ -357,7 +357,7 @@ header .container {
 .link-sn:hover,.link-sn:focus {
   background-color: var(--link-color-hov);
 }
-.link-sn:hover .icon-sn,.link-sn:focus.icon-sn {
+.link-sn:hover .icon-sn, .link-sn:focus .icon-sn {
   fill: white;
 }
 .icon-sn {
